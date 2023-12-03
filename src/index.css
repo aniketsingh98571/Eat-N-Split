@@ -18,7 +18,7 @@ html {
 }
 
 body {
-  height: 100vh;
+  /* height: 100vh; */
   color: #495057;
   display: flex;
   align-items: center;
@@ -31,6 +31,7 @@ body {
   grid-template-columns: 34rem 44rem;
   column-gap: 4rem;
   align-items: start;
+  margin: 20px 0 0 0;
 }
 
 .button {
@@ -166,4 +167,10 @@ form h2 {
   text-transform: uppercase;
   letter-spacing: -0.5px;
   margin-bottom: 1.6rem;
+}
+@media(max-width:900px){
+  .app{
+    display: flex;
+    flex-direction: column;
+  }
 }
