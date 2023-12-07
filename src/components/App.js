@@ -96,7 +96,7 @@ const handleSubmit=(e)=>{
       </div>
       {
         selectedFriend&&
-      <FormSplitBill handleSplitBill={handleSplitBill} selectedFriend={selectedFriend}/>
+      <FormSplitBill handleSplitBill={handleSplitBill} selectedFriend={selectedFriend} key={selectedFriend.id}/>
       }
     </div>
   );
